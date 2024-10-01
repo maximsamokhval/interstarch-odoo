@@ -14,6 +14,7 @@
         'account',
     ],
     'data': [
+        'views/report_invoice.xml',
     ],
 
     'demo': [],

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="st_report_invoice_document" inherit_id="account.report_invoice_document">
+            <xpath expr="//h2/span[@t-if='not proforma']" position="replace">
+                <span t-if="not proforma or o.payment_state in ['paid', 'partial']"></span>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

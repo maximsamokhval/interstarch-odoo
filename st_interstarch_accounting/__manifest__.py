@@ -2,7 +2,7 @@
 
 {
     'name': 'ST Interstarch Accounting',
-    'version': '17.0.0.0.0',
+    'version': '17.0.0.1.0',
     'summary': 'Accounting customisation for Interstarch',
     'sequence': 10,
     'description': """

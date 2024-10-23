@@ -3,6 +3,7 @@
 import { patch } from "@web/core/utils/patch";
 import { ListRenderer } from "@web/views/list/list_renderer";
 import { registry } from "@web/core/registry";
+import { _t } from "@web/core/l10n/translation";
 
 const formatters = registry.category("formatters");
 

@@ -1,5 +1,8 @@
 ST Interstarch Accounting
 ====
+ **17.0.0.1.0**
+
+- **FIX:** Date computation
 
  **17.0.0.1.0**
 
